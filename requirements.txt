@@ -1,34 +1,32 @@
-
-# force rebuild
-
-# Core
+# Streamlit Core
 streamlit==1.31.0
 python-dotenv
 requests
 uuid
 
-# LangChain (Compatible versions)
+# LangChain
 langchain==0.1.20
 langchain-core==0.1.52
-langchain-community==0.0.40
-langgraph==0.0.63
+langchain-community==0.3.11
+
+# LangGraph
+langgraph==0.1.18
 
 # Google GenAI
-langchain-google-genai==1.0.1
-google-generativeai==0.3.2
+google-generativeai==0.8.3
+langchain-google-genai==1.0.3
 protobuf==4.25.3
 
-# Vector Databases
-chromadb==0.5.0
-faiss-cpu
+# Vectorstores
+chromadb==0.5.11
+faiss-cpu==1.8.0
 
-# PDF + Embeddings
+# Embeddings + PDF
 pypdf
 sentence-transformers
 
 # Search Tools
-duckduckgo_search
-ddgs
+duckduckgo_search==6.1.0
 
 # SQL
 sqlalchemy
