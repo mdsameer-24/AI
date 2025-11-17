@@ -1,60 +1,30 @@
-# Core
-streamlit
-python-dotenv
-requests
+streamlit==1.36.0
+python-dotenv==1.0.1
 
-# LangChain and LangGraph
-langchain
-langgraph
-langchain-core
-langchain-community
-langchain-google-genai
+# LangChain core + ecosystem
+langchain==0.2.14
+langchain-core==0.2.38
+langchain-community==0.2.10
+langchain-text-splitters==0.2.2
 
-# LLM Tools
-google-generativeai
+# Google Gemini (LangChain integration)
+langchain-google-genai==1.0.2
+google-generativeai==0.8.3
 
-# SQL and Database
-sqlalchemy
-pymysql
+# LangGraph for tool-calling + memory
+langgraph==0.2.21
 
-# Typing and Dev Tools
-typing-extensions
-ipython
-duckduckgo_search
-ddgs
+# Embeddings (local, stable)
+sentence-transformers==2.7.0
+transformers==4.41.2
 
+# Vector DB
+faiss-cpu==1.7.4
 
-streamlit
-python-dotenv
-uuid
-langchain
-langchain-community
-langchain-core
-langgraph
-langchain-google-genai
-pypdf
-chromadb
+# Loaders & utilities
+pypdf==4.3.0
+langchain_huggingface==0.0.3
+duckduckgo-search==6.1.0
 
-streamlit
-python-dotenv
-langchain
-langchain-community
-langchain-google-genai
-chromadb
-pypdf
-faiss-cpu
-
-
-langchain
-langchain-community
-faiss-cpu
-sentence-transformers
-streamlit
-
-langchain
-langchain-community
-langchain-huggingface
-sentence-transformers
-faiss-cpu
-streamlit
-
+# Optional: fix protobuf errors in Streamlit Cloud
+protobuf==5.27.2
