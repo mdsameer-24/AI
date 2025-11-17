@@ -1,37 +1,60 @@
-# Streamlit Core
-streamlit==1.31.0
+# Core
+streamlit
 python-dotenv
 requests
-uuid
 
-# LangChain
-langchain==0.1.20
-langchain-core==0.1.52
-langchain-community==0.3.11
+# LangChain and LangGraph
+langchain
+langgraph
+langchain-core
+langchain-community
+langchain-google-genai
 
-# LangGraph
-langgraph==0.1.18
+# LLM Tools
+google-generativeai
 
-# Google GenAI
-google-generativeai==0.8.3
-langchain-google-genai==1.0.3
-protobuf==4.25.3
-
-# Vectorstores
-chromadb==0.5.11
-faiss-cpu==1.8.0
-
-# Embeddings + PDF
-pypdf
-sentence-transformers
-
-# Search Tools
-duckduckgo_search==6.1.0
-
-# SQL
+# SQL and Database
 sqlalchemy
 pymysql
 
-# Utils
+# Typing and Dev Tools
 typing-extensions
 ipython
+duckduckgo_search
+ddgs
+
+
+streamlit
+python-dotenv
+uuid
+langchain
+langchain-community
+langchain-core
+langgraph
+langchain-google-genai
+pypdf
+chromadb
+
+streamlit
+python-dotenv
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+pypdf
+faiss-cpu
+
+
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+streamlit
+
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+streamlit
+
